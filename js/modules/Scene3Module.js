@@ -154,7 +154,7 @@ var Scene3Module = function () {
 			
 		}
 		
-		renderer.render( scene, camera );
+		cubemapRenderer.render( scene, camera );
 
 	};
 

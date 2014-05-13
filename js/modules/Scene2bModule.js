@@ -178,7 +178,7 @@ var Scene2bModule = function () {
 
 		camera.lookAt( cameraTarget );
 
-		renderer.render( scene, camera );
+		cubemapRenderer.render( scene, camera );
 
 	};
 

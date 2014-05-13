@@ -145,7 +145,7 @@ var Scene4Module = function () {
 		
 		sphere.scale.x = sphere.scale.y = sphere.scale.z = t * 18 + 0.2;
 		
-		renderer.render( scene, camera );
+		cubemapRenderer.render( scene, camera );
 
 	};
 

@@ -78,8 +78,7 @@ var SceneModule = function () {
 			mesh.scale.set( scale, scale, scale );
 			
 		}
-		
-		renderer.render( scene, camera );
+		cubemapRenderer.render( scene, camera );
 
 	};
 

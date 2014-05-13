@@ -30,7 +30,7 @@ var ColorModule = function () {
 
 	this.update = function ( t ) {
 
-		renderer.render( scene, camera );
+		cubemapRenderer.render( scene, camera );
 
 	};
 

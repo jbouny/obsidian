@@ -14,7 +14,7 @@ var WebGLRendererModule = function () {
 
 	var resize = function () {
 
-		renderer.setSize(
+		cubemapRenderer.setSize(
 			width * ( window.innerWidth / width ),
 			height * ( window.innerWidth / width )
 		);
@@ -32,6 +32,7 @@ var WebGLRendererModule = function () {
 
 		renderer = new THREE.WebGLRenderer( { antialias: true, alpha: false } ); // TODO: Remove this nasty global
 		renderer.autoClear = false;
+		cubemapRenderer = new THREE.CubemapEffect( renderer );
 
 		if ( parameters.dom !== null ) {
 

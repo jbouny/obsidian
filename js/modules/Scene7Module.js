@@ -170,7 +170,7 @@ var Scene7Module = function () {
 			
 		}
 		
-		renderer.render( scene, camera );
+		cubemapRenderer.render( scene, camera );
 
 	};
 

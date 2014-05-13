@@ -153,7 +153,7 @@ var Scene6bModule = function () {
 
 		}
 		
-		renderer.render( scene, camera );
+		cubemapRenderer.render( scene, camera );
 
 	};
 
